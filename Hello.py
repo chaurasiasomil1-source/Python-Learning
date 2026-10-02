@@ -1,7 +1,6 @@
-Name = "Somil Chaurasia"
-Age = "22"
-Goal = "Build a web site in one week"
-
-print("My name is", Name)
-print("I am", Age, "years old")
-print("my goal is to", Goal)
+name = input("what is your name ?\n")
+age = int(input("how old are you\n"))
+future_age = int(input("add any number to current age\n"))
+print("Hello!", name)
+print("currently you are", age, "years old")
+print("in", future_age, "years you will be", future_age + age, "years old")
